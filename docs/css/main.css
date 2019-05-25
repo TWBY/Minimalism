@@ -312,7 +312,7 @@ body, html {
     grid-row: 2 / 3;
     width: auto;
     height: 100%; }
-    .PeopleContent .videoArea .StreetImg, .PeopleContent .videoArea .video__player {
+    .PeopleContent .videoArea .StreetImg, .PeopleContent .videoArea .video__plDayer {
       border-radius: 40px; }
   .PeopleContent .videoButton {
     -ms-grid-column: 1;
@@ -372,8 +372,14 @@ body, html {
   transform: translateY(-50%);
   -webkit-transition-duration: .5s;
   -o-transition-duration: .5s;
-  transition-duration: .5s; }
+  transition-duration: .5s;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%; }
   .StreetImg:hover {
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
     -webkit-transition-duration: .5s;
     -o-transition-duration: .5s;
     transition-duration: .5s;
@@ -409,33 +415,36 @@ body, html {
     -webkit-transform: translate(calc(-100% + 10rem), calc(-100% + 10rem));
     -ms-transform: translate(calc(-100% + 10rem), calc(-100% + 10rem));
     transform: translate(calc(-100% + 10rem), calc(-100% + 10rem)); }
-    .video-toggle .video-toggle-inner:before {
-      pointer-events: auto;
-      content: "▶";
-      width: 10rem;
-      height: 10rem;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      border: solid 1px white;
-      bottom: 0;
-      right: 0;
-      position: absolute;
-      z-index: 1;
-      font-size: 5rem;
-      background-color: white;
-      color: #d5d5d5;
-      text-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
-      -webkit-transition: opacity 0.3s linear 0.3s;
-      -o-transition: opacity 0.3s linear 0.3s;
-      transition: opacity 0.3s linear 0.3s;
-      visibility: visible; }
+  .video-toggle .video-toggle-inner-people:before, .video-toggle .video-toggle-inner-street:before {
+    pointer-events: auto;
+    content: "▶";
+    width: 10rem;
+    height: 10rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    font-size: 5rem;
+    background-color: white;
+    color: #d5d5d5;
+    -webkit-transition: opacity 0.3s linear 0.3s;
+    -o-transition: opacity 0.3s linear 0.3s;
+    transition: opacity 0.3s linear 0.3s;
+    visibility: visible;
+    background-size: cover; }
+  .video-toggle .video-toggle-inner-people:before {
+    background-image: url("../asset/img/撥放鍵2.png"); }
+  .video-toggle .video-toggle-inner-street:before {
+    background-image: url("../asset/img/撥放鍵.png"); }
   .video-toggle video {
     -webkit-transform: translate(calc(-50% + 15rem), calc(-50% + 10rem));
     -ms-transform: translate(calc(-50% + 15rem), calc(-50% + 10rem));

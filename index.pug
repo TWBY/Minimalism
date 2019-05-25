@@ -58,7 +58,7 @@ html(lang="en")
                     .videoArea
                         img.StreetImg(src="docs/asset/img/videocover/street.jpg", alt="", srcset="")
                         .video-toggle.StreetToggle(onclick="videoSetting(this,0)")
-                            .video-toggle-inner
+                            .video-toggle-inner.video-toggle-inner-street
                                 video.video__player(loop)
                                     source.StreetVideo(src='docs/asset/video/極簡主義的日常.mp4' type='video/mp4')
                     .videoButton
@@ -86,7 +86,7 @@ html(lang="en")
                     .videoArea
                         img.StreetImg(src="docs/asset/img/videocover/daily.jpg", alt="", srcset="")
                         .video-toggle.PeopleToggle(onclick="videoSetting(this,1)")
-                            .video-toggle-inner
+                            .video-toggle-inner.video-toggle-inner-people
                                 video.video__player(loop)
                                     source.PeopleVideo(src='docs/asset/video/極簡主義的日常.mp4' type='video/mp4')
                     .videoButton
