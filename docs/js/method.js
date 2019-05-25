@@ -30,7 +30,7 @@ var vm = new Vue({
             result: everytypes, //A,B,C
             type: '', //測驗結果 A
             now: 0,
-            pageNow: 1,
+            pageNow: 0,
             resultInfos: '',
             number: 0
 

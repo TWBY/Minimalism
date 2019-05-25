@@ -1,11 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css?family=Harmattan|Noto+Sans+TC')
+
 
 *
     box-sizing: border-box
     position: relative
     font-weight: 500
     //+border(doed, 0.2px, black)
+    font-family: $CH_language
 
 body, html
     margin: 0
@@ -17,7 +18,6 @@ body, html
     display: flex
     justify-content: flex-end
     position: relative
-    font-family: $EN_language
     // +size(20%, 13%)
     height: 13%
     & .title
@@ -29,6 +29,7 @@ body, html
         font-size: 32px
         letter-spacing: 2.6px
         text-decoration: none
+        font-family: $EN_language
         padding: 0 20px
         & .home
             margin-right: 4%
@@ -37,6 +38,7 @@ body, html
     border-bottom-left-radius: 40px
     border-bottom-right-radius: 40px
     box-shadow: 0px 5px 5px $cccccc
+    background-color: #fff
 
 
 // FOOTER
