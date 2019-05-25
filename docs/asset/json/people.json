@@ -1,0 +1,130 @@
+[
+
+    {
+        "name": "約翰.波森 &nbsp; John Pawson",
+        "year": "(1949~)",
+        "location": "&nbsp;&nbsp;英國 哈利法克斯",
+        "history": "&nbsp;&nbsp;建築空間大師",
+        "isShow": false,
+        "saying": "&nbsp;&nbsp;「愈簡約，愈能看出事物本身的面相」",
+        "img": "../asset/img/mapPeople/John.jpg"
+    },
+    {
+        "name": "賈伯斯 &nbsp; Steve Paul Jobs",
+        "year": "(1955~2011)",
+        "location": "&nbsp;&nbsp;美國 加州 舊金山",
+        "history": "&nbsp;&nbsp;蘋果公司創辦人",
+        "isShow": false,
+        "saying": "&nbsp;&nbsp;「簡約就是細膩的極致」",
+        "img": "../asset/img/mapPeople/Jobs.jpg"
+    },
+    {
+        "name": "佐佐木典士 &nbsp; Sasaki Fumio",
+        "year": "(1979~)",
+        "location": "&nbsp;&nbsp;日本東京",
+        "history": "&nbsp;&nbsp;日本極簡主義者",
+        "isShow": false,
+        "saying": "&nbsp;&nbsp;「過去的我老是在跟別人比。自從減少物品後，我每天都感到很幸福，也慢慢地了解什麼是幸福。」",
+        "img": "../asset/img/mapPeople/Sasaki.jpg"
+    },
+    {
+        "name": "雅各布.延森 &nbsp; Jacob Jensen",
+        "year": "(1926~2015)",
+        "location": "&nbsp;&nbsp;丹麥哥本哈根",
+        "history": "&nbsp;&nbsp;後現代主義的開創建築師",
+        "isShow": false,
+        "saying": "&nbsp;&nbsp;「只有內心豐富的人，才能畫出簡潔的線條，設計出光潔的產品外觀」",
+        "img": "../asset/img/mapPeople/Jacob.jpg"
+    },
+    {
+        "name": "馬克.祖克柏 &nbsp; Mark Zuckerberg",
+        "year": "(1984~)",
+        "location": "&nbsp;&nbsp;美國 紐約",
+        "history": "&nbsp;&nbsp;臉書創辦人",
+        "isShow": false,
+        "saying": "&nbsp;&nbsp;「我會感覺沒有工作幹勁，如果把精力花在很蠢或是無意義的事情上。」",
+        "img": "../asset/img/mapPeople/Mark.jpg"
+    },
+    {
+        "name": "德蕾莎修女 &nbsp; Mater Teresia",
+        "year": "(1910~1997)",
+        "location": "&nbsp;&nbsp;馬其頓 史高比耶",
+        "history": "&nbsp;&nbsp;最偉大的修女 諾貝爾和平獎得主",
+        "isShow": false,
+        "saying": "&nbsp;&nbsp;「我們節儉下來的物資可以發送給無數的受難者」",
+        "img": "../asset/img/mapPeople/Teresia.jpg"
+    },
+    {
+        "name": "聖雄甘地 &nbsp; Gandhi",
+        "year": "(1869~1948)",
+        "location": "&nbsp;&nbsp;印度 博爾本德爾",
+        "history": "&nbsp;&nbsp;印度國父",
+        "isShow": false,
+        "saying": "&nbsp;&nbsp;「My Life Is My Message」",
+        "img": "../asset/img/mapPeople/Gandhi.jpg"
+    },
+    {
+        "name": "法蘭辛.傑伊 &nbsp; Francine Jay",
+        "year": "",
+        "location": "&nbsp;&nbsp;美國 波特蘭",
+        "history": "&nbsp;&nbsp;極簡設計師",
+        "isShow": false,
+        "saying": "&nbsp;&nbsp;「Your home is living space, not storage space.」",
+        "img": "../asset/img/mapPeople/Francine.jpg"
+    },
+    {
+        "name": "沼畑直樹 &nbsp; Naoki Numahata",
+        "year": "(1974~)",
+        "location": "&nbsp;&nbsp;日本 東京",
+        "history": "&nbsp;&nbsp;日本極簡主義者",
+        "isShow": false,
+        "saying": "&nbsp;&nbsp;「素樸的極簡生活，是擁抱物質文明現代人未來該追求的生活方式」",
+        "img": "../asset/img/mapPeople/Numahata.jpg"
+    },
+    {
+        "name": "雷蒙德.卡佛 &nbsp; Raymond Carver",
+        "year": "(1938~1988)",
+        "location": "&nbsp;&nbsp;美國 華盛頓州 亞基馬",
+        "history": "&nbsp;&nbsp;20世紀最偉大的作家之一",
+        "isShow": false,
+        "saying": "&nbsp;&nbsp;「我在我的家裏，這點我很清楚，但我又感覺自己不在任何東西之內，無拘無束。」",
+        "img": "../asset/img/mapPeople/Raymond.jpg"
+    },
+    {
+        "name": "柯林.萊特 &nbsp; Colin Wright",
+        "year": "(1985~)",
+        "location": "&nbsp;&nbsp;美國 田納西州 孟斐斯",
+        "history": "&nbsp;&nbsp;TED講者，知名講者",
+        "isShow": false,
+        "saying": "&nbsp;&nbsp;「Most of us spend so much time on the former, that we can neglect the latter in the trade-off」",
+        "img": "../asset/img/mapPeople/Colin.jpg"
+    },
+    {
+        "name": "喬舒亞.貝克爾 &nbsp; Joshua Becker",
+        "year": "(1974~)",
+        "location": "&nbsp;&nbsp;美國 明尼蘇達州 聖保羅",
+        "history": "&nbsp;&nbsp;《成為極簡主義者》雜誌創辦者",
+        "isShow": false,
+        "saying": "&nbsp;&nbsp;「在你擁有的一切之下，發現你想要的生活。」",
+        "img": "../asset/img/mapPeople/Joshua_b.jpg"
+
+    },
+    {
+        "name": "雍正皇帝 &nbsp; Yongzheng",
+        "year": "(1678~1735)",
+        "location": "&nbsp;&nbsp;中國 北京",
+        "history": "&nbsp;&nbsp;清朝皇帝",
+        "isShow": false,
+        "saying": "&nbsp;&nbsp;「欽差回京，不設公筵，以廉儉昭天子之德。是雍正皇帝自身的節儉。」",
+        "img": "../asset/img/mapPeople/Yongzheng.jpg"
+    },
+    {
+        "name": "喬舒亞·菲爾茲·米爾伯 &nbsp; Joshua Fields Millburn",
+        "year": "(1981~)",
+        "location": "&nbsp;&nbsp;美國 俄亥俄州 代頓",
+        "history": "&nbsp;&nbsp;電影監製，作家",
+        "isShow": false,
+        "saying": "&nbsp;&nbsp;「Minimalism does not mean that you have nothing, but that you want to cross the ocean of matter and find something truly important.」",
+        "img": "../asset/img/mapPeople/Joshua_f.jpg"
+    }
+]

@@ -1,0 +1,55 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet", href="../css/information.css")
+        title Information
+    body
+        .header
+            a.title.home(href="../../index.html") HOME
+            a.title.method(href="method.html") METHOD
+            a.title.information.onPage(href="information.html") INFORMATION
+
+        .checkbtn
+            a.book.btn(href="map.html") 世界上的極簡主義者們
+            a.map.btn.onOption(href="information.html") 推薦的12本生活風格書籍
+
+
+        #bookapp
+            .line.lineOne
+                .title 神奇的減物魔法
+                .bottom_line
+            .line.lineTwo 
+                .title 極簡與無印良品
+                .bottom_line
+            .line.lineThree
+                .title 簡單生活
+                .bottom_line
+            .line.lineFour
+                .title 日常好物的推薦
+                .bottom_line
+            .line.lineFive
+                .title 斷捨離的步驟
+                .bottom_line          
+            .bookGroupBg(:id="bookID(index)" v-for='(book, index) in books')
+                img.bookImg(:src="book.img" :class='{ isActive:book.isactive }')
+                .bookGroup(:class='{ bookActive:book.isactive }')
+                    .num {{ index+1 }}
+                    .bookTitle
+                        .name(v-bind:href="book.booklink"  target="_blank")  {{ book.name }}
+                        .subtitle {{ book.subtitle }}
+                    .info( @mouseover="mouseover(index)" @mouseleave="mouseleave(index)")
+                        //- .author 作者 &emsp; |
+                        .author 作者:  {{ book.author }}
+                        .introTitle 分享 :
+                        .intro {{ book.intro }}
+                    .halfCircle        
+        .footer
+            a.footerObj.about 關於我們
+            a.footerObj.title.method 企劃來由
+            .footerObj.copyright &copy; 2019 Become A Minimalist All Rights Reserved NEWSROOM Team     
+
+        script(src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js")
+        script(src="../js/information.js")

@@ -1,0 +1,219 @@
+@charset "UTF-8"
+@import  function
+// @import  base
+
+// *
+//     +border(dotted, 0.2px, black)
+
+.header
+    display: flex
+    justify-content: flex-end
+    position: relative
+    font-family: $EN_language
+    height: 14%
+    & .title
+        +flexdisplay()
+        color: black
+        height: 100%
+        margin-right: 3.5%
+        font-size: 32px
+        letter-spacing: 2.6px
+        text-decoration: none
+        padding: 0 20px
+        & .home
+            margin-right: 4%
+
+.onPage
+    border-bottom-left-radius: 40px
+    border-bottom-right-radius: 40px
+    box-shadow: 0px 5px 5px $cccccc
+
+.footer
+    position: absolute
+    bottom: 0px
+    background-color: #f2f2f2
+    color: #736357
+    +size(100%, 5.5%)
+    +flexdisplay()
+    justify-content: flex-start
+    .footerObj
+        font-size: 18px
+        margin-left: 2%
+
+.checkbtn
+    position: absolute
+    display: flex
+    flex-direction: column
+    top: 20%
+    left: 15%
+    +size(15%,5%)
+    
+    .btn
+        text-align: center
+        font-size: 20px
+        padding: 3px 5px
+        border-radius: 20px
+        letter-spacing: 2px
+        margin-top: 2%
+        color: $Mgray_color
+        text-decoration: none
+        &:hover
+            background-color: #fefbd2
+            color: #231815
+            box-shadow: 1px 2px 0 0 rgba(198, 198, 186, 0.75)
+
+
+
+//MAP 頁面
+#map
+    position: absolute
+    top: 27%
+    left: 10%
+
+#map_img
+    width: 80%
+    // border: solid 1px black
+
+.map_title
+    position: absolute
+    top: 10%
+    left: 8%
+    width: 250px
+    height: 25px
+    background-color: silver
+    font-size: 20px
+    color: gray
+    padding: 5px
+
+.card
+    width: 60%
+    height: 15%
+    display: none
+    position: absolute
+    top: 5%
+    left: 30%
+
+
+.onOption
+    background-color: #fefbd2
+    color: #231815
+    box-shadow: 1px 2px 0 0 rgba(198, 198, 186, 0.75)
+
+
+.close
+    position: absolute
+    right: 0px
+    top: 0px
+    float: left
+
+
+.link
+    width: 20px
+    height: 20px
+    padding: 5px
+    position: relative
+    right: 5px
+    top: 5px
+    float: right
+
+
+//資訊卡
+.infoText
+    position: absolute
+    left: 32%
+    top: 17.056%
+    +size(80%,auto)
+    display: flex
+
+#card_img
+    +size(100px, 100px)
+    // +border()
+    align-self:  flex-end 
+
+#logo_img
+    +size(20px, 20px)
+    
+
+#card_text
+    margin-left: 2%
+    // +border()
+    .detail 
+        margin: 0px
+        margin-bottom: 0.5%
+    .name, .year
+        margin-left: 2%
+
+
+//各個point 設定
+.point_img
+    position: absolute
+    display: inline-block
+    padding: 10px
+    +size(10px, 10px)
+#point0
+    top: 41.6%
+    left: 15.9%
+
+#point1
+    top: 49.2%
+    left: 58.6%
+
+#point2
+    top: 50.8%
+    left: 41.1%
+
+#point3
+    top: 41.3%
+    left: 18.3%
+
+#point4
+    top: 47.9%
+    left: 66.7%
+
+#point5
+    top: 48%
+    left: 20.5%
+
+#point6
+    top: 56.3%
+    left: 28.6%
+
+#point7
+    top: 45.5%
+    left: 58.3%
+
+/*法蘭辛
+
+#point8
+    top: 50.8%
+    left: 42.3%
+
+/*沼畑
+
+#point9
+    top: 45%
+    left: 59.2%
+
+/*雷蒙德卡佛
+
+#point10
+    top: 50%
+    left: 64.5%
+
+/*柯林萊特
+
+#point11
+    top: 45.7%
+    left: 63.6%
+
+/*喬舒亞·貝克爾
+
+#point12
+    top: 49%
+    left: 36.5%
+
+/*雍正
+
+#point13
+    top: 47.1%
+    left: 65.3%
