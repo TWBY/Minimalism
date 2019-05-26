@@ -201,17 +201,17 @@
         "options": [{
                 "q": "&emsp;a.&emsp;純色寶石&emsp;",
                 "type": "A",
-                "img": "../asset/img/gem/one_color.jpg"
+                "img": "../asset/img/gem/one_color.png"
             },
             {
                 "q": "&emsp;b.&emsp;彩色鑽石&emsp;",
                 "type": "B",
-                "img": "../asset/img/gem/one_color.jpg"
+                "img": "../asset/img/gem/muticolor.png"
             },
             {
                 "q": "&emsp;c.&emsp;透明水晶&emsp;",
                 "type": "C",
-                "img": "../asset/img/gem/one_color.jpg"
+                "img": "../asset/img/gem/transparent.png"
             }
         ],
         "selected": "C",

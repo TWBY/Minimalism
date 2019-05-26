@@ -164,18 +164,15 @@ $inner_height: $bar_height / 16 //20px
         padding-top: 20px
 
     //人物
-    & .closePeople, & .openPeople
+    & .People
         position: absolute
         right: 0px
         bottom: 0px
         +size(400px, auto)
-    & .closePeople
-        opacity: 1    
-    & .openPeople
+        transition-delay: .8s
+    & .open
         opacity: 0
-    &:hover .openPeople
-        opacity: 1
-
+        transition-delay: 0s
 
 
     //簡介
@@ -210,18 +207,6 @@ $inner_height: $bar_height / 16 //20px
             margin-top: 5%
             & img
                 +size(100%, auto)
-    & .closeStar
-        opacity: 1
-    & .openStar
-        opacity: 0
-    &:hover .openStar
-        opacity: 1
-
-#results
-    &:hover .closeStar
-        opacity: 0
-    &:hover .closePeople
-        opacity: 0
 
 
 

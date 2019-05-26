@@ -4,7 +4,7 @@ html(lang="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         link(rel="stylesheet", href="../css/method.css")
-        title Method
+        title  Become A Minimalist- METHOD
     body
         .header
             a.title.home(href="../../index.html") HOME
@@ -68,14 +68,10 @@ html(lang="en")
 
             template#result(v-if='pageNow == 2')
                 #results
-                    .resultContainer(:id="resultId(index)" v-for='(result, index) in resultInfos')
+                    .resultContainer(:id="resultId(index)" v-for='(result, index) in resultInfos' @mouseover="mouseover(index)" @mouseleave="mouseleave(index)")
                         .title {{ result.title }} 
-                        img.closePeople(src="../asset/img/people/peopleOne.png", alt="")
-                        img.openPeople(src="../asset/img/people/peopleOne.png", alt="")
-                        .stars.closeStar
-                            .star(v-for='item in showStar(index)') 
-                                img(src="../asset/img/logo.png", alt="")
-                        .stars.openStar
+                        img.People( src="../asset/img/people/peopleOne.png", alt="")
+                        .stars
                             .star(v-for='item in showStar(index)') 
                                 img(src="../asset/img/logo.png", alt="")
                         .depiction

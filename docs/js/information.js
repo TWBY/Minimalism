@@ -46,6 +46,37 @@ var vm = new Vue({
 });
 
 
-
-
 Vue.config.devtools = true;
+
+
+//按紐向上
+function scrollIt() {
+    window.scrollTo({
+        'behavior': 'smooth',
+        'top': 0
+    });
+}
+
+
+const btn = document.querySelector('.js-btn');
+console.log(btn);
+btn.addEventListener('click', function () {
+    console.log("be click");
+    scrollIt();
+});
+
+
+
+
+window.onscroll = function () {
+    const top = document.body.scrollTop;
+    if (top >= 500) {
+        console.log("top>100");
+        btn.classList.add('fade')
+    }
+    if (top < 500) {
+        console.log("top<500");
+        btn.classList.remove('fade')
+    }
+    console.log(document.body.scrollTop);
+};

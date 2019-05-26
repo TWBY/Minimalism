@@ -71,6 +71,48 @@ body, html {
     font-size: 18px;
     margin-left: 2%; }
 
+.js-btn {
+  width: 50px;
+  height: 50px;
+  background: #636363;
+  position: fixed;
+  bottom: 10%;
+  left: 5%;
+  border-radius: 35px;
+  opacity: 0;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+  .js-btn i {
+    color: #fff;
+    position: relative;
+    top: -2px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+  .js-btn:hover {
+    background: rgba(0, 0, 0, 0.9); }
+    .js-btn:hover i {
+      color: #fff;
+      top: -5px; }
+
+.fade {
+  opacity: 1;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
 @media screen and (max-width: 1366px) {
   .header .title {
     margin-right: 4%;
@@ -336,18 +378,20 @@ body, html {
     width: 40px;
     height: 95%;
     padding-top: 20px; }
-  #result0 .closePeople, #result0 .openPeople, #result1 .closePeople, #result1 .openPeople, #result2 .closePeople, #result2 .openPeople {
+  #result0 .People, #result1 .People, #result2 .People {
     position: absolute;
     right: 0px;
     bottom: 0px;
     width: 400px;
-    height: auto; }
-  #result0 .closePeople, #result1 .closePeople, #result2 .closePeople {
-    opacity: 1; }
-  #result0 .openPeople, #result1 .openPeople, #result2 .openPeople {
-    opacity: 0; }
-  #result0:hover .openPeople, #result1:hover .openPeople, #result2:hover .openPeople {
-    opacity: 1; }
+    height: auto;
+    -webkit-transition-delay: .8s;
+    -o-transition-delay: .8s;
+    transition-delay: .8s; }
+  #result0 .open, #result1 .open, #result2 .open {
+    opacity: 0;
+    -webkit-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s; }
   #result0 .depiction, #result1 .depiction, #result2 .depiction {
     position: absolute;
     width: 750px;
@@ -386,18 +430,6 @@ body, html {
       #result0 .stars .star img, #result1 .stars .star img, #result2 .stars .star img {
         width: 100%;
         height: auto; }
-  #result0 .closeStar, #result1 .closeStar, #result2 .closeStar {
-    opacity: 1; }
-  #result0 .openStar, #result1 .openStar, #result2 .openStar {
-    opacity: 0; }
-  #result0:hover .openStar, #result1:hover .openStar, #result2:hover .openStar {
-    opacity: 1; }
-
-#results:hover .closeStar {
-  opacity: 0; }
-
-#results:hover .closePeople {
-  opacity: 0; }
 
 .footer {
   position: absolute;

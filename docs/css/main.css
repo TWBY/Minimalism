@@ -71,6 +71,48 @@ body, html {
     font-size: 18px;
     margin-left: 2%; }
 
+.js-btn {
+  width: 50px;
+  height: 50px;
+  background: #636363;
+  position: fixed;
+  bottom: 10%;
+  left: 5%;
+  border-radius: 35px;
+  opacity: 0;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+  .js-btn i {
+    color: #fff;
+    position: relative;
+    top: -2px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+  .js-btn:hover {
+    background: rgba(0, 0, 0, 0.9); }
+    .js-btn:hover i {
+      color: #fff;
+      top: -5px; }
+
+.fade {
+  opacity: 1;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
 @media screen and (max-width: 1366px) {
   .header .title {
     margin-right: 4%;

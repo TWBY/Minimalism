@@ -5,7 +5,7 @@
     box-sizing: border-box
     position: relative
     font-weight: 500
-    //+border(doed, 0.2px, black)
+    //+border(dotted, 0.2px, black)
     font-family: $CH_language
 
 body, html
@@ -53,6 +53,34 @@ body, html
     .footerObj
         font-size: 18px
         margin-left: 2%
+
+
+//top向上按鈕
+.js-btn
+    +size(50px,50px)
+    background: lighten($Mgray_color,10%)
+    position: fixed
+    bottom: 10%
+    left: 5%
+    border-radius: 35px
+    opacity: 0
+    text-decoration: none
+    +flexdisplay()
+    transition: all 0.5s ease
+    i
+        color: #fff
+        position: relative
+        top: -2px
+        font-size: 19px
+        transition: all 0.3s ease
+    &:hover
+        background: rgba(0, 0, 0, 0.9)
+        i
+            color: #fff
+            top: -5px
+.fade
+    opacity: 1
+    transition: all 0.5s ease
 
 @media screen and (max-width: 1366px)
     .header

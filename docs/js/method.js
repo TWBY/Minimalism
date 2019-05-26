@@ -37,7 +37,7 @@ var vm = new Vue({
         }
     },
     created() {
-        axios.get('../asset/json/quest.json').then(val => {
+        axios.get('../asset/json/questtest.json').then(val => {
             var vm = this;
             vm.questions = val.data;
         }).
@@ -198,14 +198,28 @@ var vm = new Vue({
             // let transRange = (BarHeight - (this.number + 1) * innerHeight) + 'px';
             let transRange = BarHeight - (BarHeight / this.questions.length) * this.number + 'px';
             let transHeight = (BarHeight / this.questions.length) * this.number + 'px';
-            // console.log(BarHeight);
-            // console.log("innerHeight= " + innerHeight);
-            // console.log(this.number);
-            // console.log("transHeight= " + transHeight);
-            // console.log("transRange= " + transRange);
-            // console.log("---------------------------------");
             inner.style.transform = 'translateY(' + transRange + ')';
             inner.style.height = transHeight;
+        },
+        mouseover: function (index) {
+            const people = document.querySelectorAll('.People');
+            const stars = document.querySelectorAll('.stars');
+            for (let i = 0; i < people.length; i++) {
+                if (i != index) {
+                    people[i].classList.add('open');
+                    stars[i].classList.add('open')
+                }
+            }
+        },
+        mouseleave: function (index) {
+            const people = document.querySelectorAll('.People');
+            const stars = document.querySelectorAll('.stars');
+            for (let i = 0; i < people.length; i++) {
+                if (i != index) {
+                    people[i].classList.remove('open');
+                    stars[i].classList.remove('open')
+                }
+            }
         }
     },
 });

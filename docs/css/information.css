@@ -71,6 +71,48 @@ body, html {
     font-size: 18px;
     margin-left: 2%; }
 
+.js-btn {
+  width: 50px;
+  height: 50px;
+  background: #636363;
+  position: fixed;
+  bottom: 10%;
+  left: 5%;
+  border-radius: 35px;
+  opacity: 0;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+  .js-btn i {
+    color: #fff;
+    position: relative;
+    top: -2px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+  .js-btn:hover {
+    background: rgba(0, 0, 0, 0.9); }
+    .js-btn:hover i {
+      color: #fff;
+      top: -5px; }
+
+.fade {
+  opacity: 1;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
 @media screen and (max-width: 1366px) {
   .header .title {
     margin-right: 4%;
@@ -144,13 +186,13 @@ body, html {
 
 .bookGroup {
   background-color: #f1f2f4;
-  width: 50%;
+  width: 72%;
   height: 70%;
   z-index: 10;
-  padding: 0px 6%;
+  padding: 0% 0.5%;
   font-family: Noto Sans TC;
   letter-spacing: 2px;
-  opacity: 0;
+  opacity: 1;
   -webkit-transition-duration: .5s;
   -o-transition-duration: .5s;
   transition-duration: .5s; }
@@ -189,7 +231,8 @@ body, html {
   -webkit-transition-duration: 0.8s;
   -o-transition-duration: 0.8s;
   transition-duration: 0.8s;
-  pointer-events: none; }
+  pointer-events: none;
+  opacity: 0; }
 
 .isActive {
   -webkit-transform: translateX(80%);
