@@ -77,7 +77,7 @@ body, html {
   background: #636363;
   position: fixed;
   bottom: 10%;
-  left: 5%;
+  left: 4%;
   border-radius: 35px;
   opacity: 0;
   text-decoration: none;
@@ -117,6 +117,9 @@ body, html {
   .header .title {
     margin-right: 4%;
     font-size: 28px; } }
+
+body {
+  overflow: hidden; }
 
 #app {
   font-size: 1em;
@@ -325,11 +328,12 @@ body, html {
   background-color: #fefbd2;
   color: #231815;
   left: 39%;
-  top: 108%;
+  top: 105%;
   padding: 0.3% 4%;
   border-radius: 20px;
   -webkit-box-shadow: 0px 5px 2px #cccccc;
-  box-shadow: 0px 5px 2px #cccccc; }
+  box-shadow: 0px 5px 2px #cccccc;
+  letter-spacing: 2px; }
   .resultBtn:hover {
     background-color: #d5d5d5;
     color: #231815; }

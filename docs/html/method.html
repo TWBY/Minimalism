@@ -62,7 +62,7 @@
       <template id="result" v-if="pageNow == 2">
         <div id="results">
           <div class="resultContainer" :id="resultId(index)" v-for="(result, index) in resultInfos" @mouseover="mouseover(index)" @mouseleave="mouseleave(index)">
-            <div class="title">{{ result.title }} </div><img class="People" src="../asset/img/people/peopleOne.png" alt=""/>
+            <div class="title">{{ result.title }} </div><img class="People" v-bind:src="result.img" alt=""/>
             <div class="stars">
               <div class="star" v-for="item in showStar(index)"> <img src="../asset/img/logo.png" alt=""/></div>
             </div>

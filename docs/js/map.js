@@ -1,5 +1,5 @@
 var app = new Vue({
-    el: '#mapApp',
+    el: '#map',
     data: {
         peoples: '',
 

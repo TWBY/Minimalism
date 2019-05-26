@@ -70,7 +70,7 @@ html(lang="en")
                 #results
                     .resultContainer(:id="resultId(index)" v-for='(result, index) in resultInfos' @mouseover="mouseover(index)" @mouseleave="mouseleave(index)")
                         .title {{ result.title }} 
-                        img.People( src="../asset/img/people/peopleOne.png", alt="")
+                        img.People(v-bind:src="result.img", alt="")
                         .stars
                             .star(v-for='item in showStar(index)') 
                                 img(src="../asset/img/logo.png", alt="")

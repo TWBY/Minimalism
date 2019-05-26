@@ -14,10 +14,10 @@ html(lang="en")
             a.book.btn.onOption(href="map.html") 世界上的極簡主義者們
             a.map.btn(href="information.html") 推薦的12本生活風格書籍
         #map
-            img#map_img(src='../asset/img/地圖底圖.png')
-        #mapApp
+            .mapInfo
+                img#map_img(src='../asset/img/地圖底圖.png')
+                img.point_img(v-for='(people, index) in peoples' @click='showPic(index)', :id='picID(index)', src='../asset/img/mapPoint/unClick_point.png')
             .info(v-for='(people, index) in peoples')
-                img.point_img(@click='showPic(index)', :id='picID(index)', src='../asset/img/mapPoint/unClick_point.png')
                 .infoText(v-if='people.isShow')
                     img#card_img(:src='people.img')
                     #card_text
@@ -31,15 +31,7 @@ html(lang="en")
                             span(v-html="people.history") 
                         p.detail 極簡名言&nbsp; :
                             span(v-html="people.saying") 
-                    //- #card_link
-                    //-     a#fb
-                    //-         img.link(src='images/fb.png')
-                    //-     a#twitter
-                    //-         img.link(src='images/twitter.png')
-                    //-     a#wiki
-                    //-         img.link(src='images/wiki.png')
-                    //-     a#web
-                    //-         img.link(src='images/web.png')
+
         .footer
             a.footerObj.about 關於我們
             a.footerObj.title.method 企劃來由

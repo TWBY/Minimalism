@@ -41,19 +41,18 @@ $book: 17%
     display: grid
     grid-template-columns: 10% 30% 30% 30%
     grid-template-rows: $title $book $title $book $title $book $title $book $title $book 
-    // grid-row-gap: 1%
+
     margin-top: 5%
+    margin-bottom: 5%
 
 
 //分類標題
 .line
     color: $Mgray_color
     & .title
-        position: relative
         font-size: 20px
+        margin-bottom: 0.5%
     & .bottom_line
-        position: relative
-        top: 15%
         +size(100%,1px)
         +border(solid, 1px ,lighten($Mgray_color,20%))
     
@@ -65,10 +64,8 @@ $book: 17%
 
 //書籍
 .bookGroup
-    // background-color: #777
-    // +border(dotted, 1px, black)
     background-color: #f1f2f4
-    +size(72%, 70%)
+    +size(50%, 70%)
     z-index: 10
     padding:  0% 0.5%
     font-family: $CH_language
@@ -76,7 +73,8 @@ $book: 17%
     opacity: 1
     transition-duration: .5s
     
-
+.info
+    line-height: 200%
 .bookActive
     opacity: 1
     transition-duration: .5s
@@ -157,7 +155,8 @@ $book: 17%
     grid-column: 4 / 5
     grid-row:  10 / 11
 
-
+.line
+    align-self: end
 .lineOne
     grid-column: 3 / 5
     grid-row: 1 / 2

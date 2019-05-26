@@ -41,9 +41,8 @@ html(lang="en")
                         .name(v-bind:href="book.booklink"  target="_blank")  {{ book.name }}
                         //- .subtitle {{ book.subtitle }}
                     .info
-                        //- .author 作者 &emsp; |
-                        .author 作者:  {{ book.author }}
-                        .introTitle 分享 :
+                        .author 作者 | {{ book.author }}
+                        .introTitle 分享 |
                         .intro(v-html="book.intro") 
                     .halfCircle  
         a.js-btn
