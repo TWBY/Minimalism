@@ -312,8 +312,8 @@ body {
 
 .nextBtn {
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   left: 32%;
   top: 107%;
   background-image: url("../asset/img/button/黃色按鈕.png");
