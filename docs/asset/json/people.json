@@ -7,7 +7,7 @@
         "history": "&nbsp;&nbsp;建築空間大師",
         "isShow": false,
         "saying": "&nbsp;&nbsp;「愈簡約，愈能看出事物本身的面相」",
-        "img": "../asset/img/mapPeople/John.jpg"
+        "img": "../asset/img/mapPeople/John.png"
     },
     {
         "name": "賈伯斯 &nbsp; Steve Paul Jobs",
@@ -16,7 +16,7 @@
         "history": "&nbsp;&nbsp;蘋果公司創辦人",
         "isShow": false,
         "saying": "&nbsp;&nbsp;「簡約就是細膩的極致」",
-        "img": "../asset/img/mapPeople/Jobs.jpg"
+        "img": "../asset/img/mapPeople/Jobs.png"
     },
     {
         "name": "佐佐木典士 &nbsp; Sasaki Fumio",
@@ -25,7 +25,7 @@
         "history": "&nbsp;&nbsp;日本極簡主義者",
         "isShow": false,
         "saying": "&nbsp;&nbsp;「過去的我老是在跟別人比。自從減少物品後，我每天都感到很幸福，也慢慢地了解什麼是幸福。」",
-        "img": "../asset/img/mapPeople/Sasaki.jpg"
+        "img": "../asset/img/mapPeople/Sasaki.png"
     },
     {
         "name": "雅各布.延森 &nbsp; Jacob Jensen",
@@ -43,7 +43,7 @@
         "history": "&nbsp;&nbsp;臉書創辦人",
         "isShow": false,
         "saying": "&nbsp;&nbsp;「我會感覺沒有工作幹勁，如果把精力花在很蠢或是無意義的事情上。」",
-        "img": "../asset/img/mapPeople/Mark.jpg"
+        "img": "../asset/img/mapPeople/Mark.png"
     },
     {
         "name": "德蕾莎修女 &nbsp; Mater Teresia",
@@ -52,7 +52,7 @@
         "history": "&nbsp;&nbsp;最偉大的修女 諾貝爾和平獎得主",
         "isShow": false,
         "saying": "&nbsp;&nbsp;「我們節儉下來的物資可以發送給無數的受難者」",
-        "img": "../asset/img/mapPeople/Teresia.jpg"
+        "img": "../asset/img/mapPeople/Teresia.png"
     },
     {
         "name": "聖雄甘地 &nbsp; Gandhi",
@@ -61,7 +61,7 @@
         "history": "&nbsp;&nbsp;印度國父",
         "isShow": false,
         "saying": "&nbsp;&nbsp;「My Life Is My Message」",
-        "img": "../asset/img/mapPeople/Gandhi.jpg"
+        "img": "../asset/img/mapPeople/Gandhi.png"
     },
     {
         "name": "法蘭辛.傑伊 &nbsp; Francine Jay",
@@ -79,7 +79,7 @@
         "history": "&nbsp;&nbsp;日本極簡主義者",
         "isShow": false,
         "saying": "&nbsp;&nbsp;「素樸的極簡生活，是擁抱物質文明現代人未來該追求的生活方式」",
-        "img": "../asset/img/mapPeople/Numahata.jpg"
+        "img": "../asset/img/mapPeople/Numahata.png"
     },
     {
         "name": "雷蒙德.卡佛 &nbsp; Raymond Carver",
@@ -88,7 +88,7 @@
         "history": "&nbsp;&nbsp;20世紀最偉大的作家之一",
         "isShow": false,
         "saying": "&nbsp;&nbsp;「我在我的家裏，這點我很清楚，但我又感覺自己不在任何東西之內，無拘無束。」",
-        "img": "../asset/img/mapPeople/Raymond.jpg"
+        "img": "../asset/img/mapPeople/Raymond.png"
     },
     {
         "name": "柯林.萊特 &nbsp; Colin Wright",
@@ -106,7 +106,7 @@
         "history": "&nbsp;&nbsp;《成為極簡主義者》雜誌創辦者",
         "isShow": false,
         "saying": "&nbsp;&nbsp;「在你擁有的一切之下，發現你想要的生活。」",
-        "img": "../asset/img/mapPeople/Joshua_b.jpg"
+        "img": "../asset/img/mapPeople/Joshua_b.png"
 
     },
     {
@@ -116,7 +116,7 @@
         "history": "&nbsp;&nbsp;清朝皇帝",
         "isShow": false,
         "saying": "&nbsp;&nbsp;「欽差回京，不設公筵，以廉儉昭天子之德。是雍正皇帝自身的節儉。」",
-        "img": "../asset/img/mapPeople/Yongzheng.jpg"
+        "img": "../asset/img/mapPeople/Yongzheng.png"
     },
     {
         "name": "喬舒亞·菲爾茲·米爾伯 &nbsp; Joshua Fields Millburn",
@@ -125,6 +125,6 @@
         "history": "&nbsp;&nbsp;電影監製，作家",
         "isShow": false,
         "saying": "&nbsp;&nbsp;「Minimalism does not mean that you have nothing, but that you want to cross the ocean of matter and find something truly important.」",
-        "img": "../asset/img/mapPeople/Joshua_f.jpg"
+        "img": "../asset/img/mapPeople/Joshua_f.png"
     }
 ]

@@ -525,9 +525,6 @@ video, img {
   height: auto; }
 
 .videoButton {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #f24;
   width: 90%;
   height: 5%; }
 
