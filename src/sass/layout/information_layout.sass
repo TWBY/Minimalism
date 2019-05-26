@@ -62,33 +62,34 @@ $book: 17%
     // margin-top: 5%
     //background-color: #333
 
+
 //書籍
+.num
+    position: absolute
+    // left: -10%
+    font-size: 20px
+    color: #595757
 .bookGroup
     background-color: #f1f2f4
     +size(50%, 70%)
     z-index: 10
-    padding:  0% 0.5%
+    padding:  5% 0%
     font-family: $CH_language
     letter-spacing: 2px
-    opacity: 1
+    opacity: 0
     transition-duration: .5s
+    left: 6%
     
 .info
     line-height: 200%
+    .intro, .author
+        text-align: center
+
 .bookActive
     opacity: 1
     transition-duration: .5s
 
-.num
-    display: inline-block
-    position: relative
-    left: -8%
-    margin-bottom: 5%
-    font-size: 28px
-    color: #595757
-.intro
-    line-height: 25px
-    
+
 
 .halfCircle  
     content: ""
@@ -104,13 +105,15 @@ $book: 17%
 .bookImg
     position: absolute
     z-index: 100
-    transition-duration: 0.8s
+    transition-duration: 1.2s
     pointer-events: none
-    // +border()
-    opacity: 0
+    //+border()
+    opacity: 1
+    left: 10%
 .isActive
-    transform: translateX(80%)
-    transition-duration: 0.8s
+    transform: translateX(120%)
+    transition-duration: 1.2s
+    // opacity: 1
 
 
 //one

@@ -1,5 +1,5 @@
 [{
-        "name": "怦然心動的人生整理魔法",
+        "name": "怦然心動的<br>人生整理魔法",
         "subtitle": "這是副標這是",
         "author": "近藤麻理惠",
         "img": "../asset/img/books/怦1.png",
@@ -9,7 +9,7 @@
         "index": 1
     },
     {
-        "name": "怦然心動的人生整理魔法2",
+        "name": "怦然心動的<br>人生整理魔法2",
         "subtitle": "這是副標這是",
         "author": "近藤麻理惠",
         "img": "../asset/img/books/怦2.png",
@@ -29,7 +29,7 @@
         "index": 3
     },
     {
-        "name": "無印良品與我的簡單生活",
+        "name": "無印良品與<br>我的簡單生活",
         "subtitle": "這是副標這是",
         "author": "山口勢子",
         "img": "../asset/img/books/無印生活.png",
@@ -39,7 +39,7 @@
         "index": 4
     },
     {
-        "name": "無印良品極簡生活提案",
+        "name": "無印良品<br>極簡生活提案",
         "subtitle": "這是副標這是",
         "author": "蜜雪兒",
         "img": "../asset/img/books/決定.png",
@@ -72,17 +72,17 @@
         "name": "戀物卻想一身輕",
         "subtitle": "這是副標這是",
         "author": "本多沙織",
-        "img": "https://www.books.com.tw/products/0010775734",
+        "img": "../asset/img/books/戀物.png",
         "booklink": "https://www.books.com.tw/products/0010729204?loc=P_003_007",
         "intro": "「保留物品」塑造生活，<br>丟棄的反向思考，<br>簡單幸福的取捨藝術。",
         "isactive": false,
         "index": 8
     },
     {
-        "name": "從今而後的美好生活",
+        "name": "從今而後的<br>美好生活",
         "subtitle": "這是副標這是",
         "author": "X-knowledge",
-        "img": "https://www.books.com.tw/products/0010683610",
+        "img": "../asset/img/books/美好生活.png",
         "booklink": "https://www.books.com.tw/products/0010729204?loc=P_003_007",
         "intro": "五位不同的成熟女性，<br>分享生活細節的巧思，<br>食衣住綠美的集體譜曲。",
         "isactive": false,
@@ -109,10 +109,10 @@
         "index": 11
     },
     {
-        "name": "斷捨離的簡單生活",
+        "name": "斷捨離的<br>簡單生活",
         "subtitle": "這是副標這是",
         "author": "山下英子",
-        "img": "https://www.books.com.tw/products/0010793172",
+        "img": "../asset/img/books/斷簡.png",
         "booklink": "https://www.books.com.tw/products/0010729204?loc=P_003_007",
         "intro": "斷捨離後的大公開，<br>舒適生活的餘裕展現，<br>住宅的超細節分享。",
         "isactive": false,

@@ -35,14 +35,15 @@ html(lang="en")
                 .bottom_line          
             .bookGroupBg(:id="bookID(index)" v-for='(book, index) in books')
                 img.bookImg(:src="book.img" :class='{ isActive:book.isactive }')
+                .num {{ index+1 }}
                 .bookGroup(:class='{ bookActive:book.isactive }' @mouseover="mouseover(index)" @mouseleave="mouseleave(index)")
-                    .num {{ index+1 }}
                     .bookTitle
-                        .name(v-bind:href="book.booklink"  target="_blank")  {{ book.name }}
+                        .name(v-bind:href="book.booklink"  target="_blank" v-html="book.name") 
                         //- .subtitle {{ book.subtitle }}
                     .info
                         .author 作者 | {{ book.author }}
-                        .introTitle 分享 |
+                        //- .introTitle 分享 |
+                        br
                         .intro(v-html="book.intro") 
                     .halfCircle  
         a.js-btn
