@@ -37,7 +37,7 @@ var vm = new Vue({
         }
     },
     created() {
-        axios.get('../asset/json/questtest.json').then(val => {
+        axios.get('../asset/json/quest.json').then(val => {
             var vm = this;
             vm.questions = val.data;
         }).

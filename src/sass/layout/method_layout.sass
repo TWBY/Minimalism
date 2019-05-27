@@ -147,8 +147,7 @@ $inner_height: $bar_height / 16 //20px
     margin: 0 auto
     margin-top: 100px
     +size(70%, 600px) 
-    &:hover .openPeople
-        opacity: 0
+
 
 #result0, #result1, #result2 
     padding: 10px
@@ -173,9 +172,7 @@ $inner_height: $bar_height / 16 //20px
         bottom: 0px
         +size(400px, auto)
         transition-delay: .8s
-    & .open
-        opacity: 0
-        transition-delay: 0s
+
 
 
     //簡介
@@ -204,12 +201,19 @@ $inner_height: $bar_height / 16 //20px
         display: flex
         flex-wrap: wrap
         +size(230px, auto)
+        transition-delay: 1.0s
+        //+border()
         & .star
             +size(15%, auto)
             margin-left: 5%
             margin-top: 5%
             & img
                 +size(100%, auto)
+                transition-delay: 0.8s
+    & .open
+        opacity: 0
+        // transition-delay: 1.8s
+        transition-delay: -0.3s
 
 
 //header

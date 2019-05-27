@@ -352,8 +352,6 @@ body {
   margin-top: 100px;
   width: 70%;
   height: 600px; }
-  #results:hover .openPeople {
-    opacity: 0; }
 
 #result0, #result1, #result2 {
   padding: 10px;
@@ -391,11 +389,6 @@ body {
     -webkit-transition-delay: .8s;
     -o-transition-delay: .8s;
     transition-delay: .8s; }
-  #result0 .open, #result1 .open, #result2 .open {
-    opacity: 0;
-    -webkit-transition-delay: 0s;
-    -o-transition-delay: 0s;
-    transition-delay: 0s; }
   #result0 .depiction, #result1 .depiction, #result2 .depiction {
     position: absolute;
     width: 750px;
@@ -425,7 +418,10 @@ body {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     width: 230px;
-    height: auto; }
+    height: auto;
+    -webkit-transition-delay: 1.0s;
+    -o-transition-delay: 1.0s;
+    transition-delay: 1.0s; }
     #result0 .stars .star, #result1 .stars .star, #result2 .stars .star {
       width: 15%;
       height: auto;
@@ -433,7 +429,15 @@ body {
       margin-top: 5%; }
       #result0 .stars .star img, #result1 .stars .star img, #result2 .stars .star img {
         width: 100%;
-        height: auto; }
+        height: auto;
+        -webkit-transition-delay: 0.8s;
+        -o-transition-delay: 0.8s;
+        transition-delay: 0.8s; }
+  #result0 .open, #result1 .open, #result2 .open {
+    opacity: 0;
+    -webkit-transition-delay: -0.3s;
+    -o-transition-delay: -0.3s;
+    transition-delay: -0.3s; }
 
 .footer {
   position: absolute;
