@@ -39,11 +39,8 @@ html(lang="en")
                 .bookGroup(:class='{ bookActive:book.isactive }' @mouseover="mouseover(index)" @mouseleave="mouseleave(index)")
                     .bookTitle
                         .name(v-bind:href="book.booklink"  target="_blank" v-html="book.name") 
-                        //- .subtitle {{ book.subtitle }}
                     .info
                         .author 作者 | {{ book.author }}
-                        //- .introTitle 分享 |
-                        br
                         .intro(v-html="book.intro") 
                     .halfCircle  
         a.js-btn

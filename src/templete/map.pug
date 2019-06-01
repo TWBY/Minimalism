@@ -16,7 +16,8 @@ html(lang="en")
         #map
             .mapInfo
                 img#map_img(src='../asset/img/地圖底圖.png')
-                img.point_img(v-for='(people, index) in peoples' @click='showPic(index)', :id='picID(index)', src='../asset/img/mapPoint/unClick_point.png')
+                #point_img
+                    img.point_img(v-for='(people, index) in peoples' @click='showPic(index)', :id='picID(index)', src='../asset/img/mapPoint/unClick_point.png')
             .info(v-for='(people, index) in peoples')
                 .infoText(v-if='people.isShow')
                     img#card_img(:src='people.img')

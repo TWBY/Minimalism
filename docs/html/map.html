@@ -11,7 +11,9 @@
     <div class="header"><a class="title home" href="../../index.html">HOME</a><a class="title method" href="method.html">METHOD</a><a class="title information onPage" href="information.html">INFORMATION</a></div>
     <div class="checkbtn"><a class="book btn onOption" href="map.html">世界上的極簡主義者們</a><a class="map btn" href="information.html">推薦的12本生活風格書籍</a></div>
     <div id="map">
-      <div class="mapInfo"><img id="map_img" src="../asset/img/地圖底圖.png"/><img class="point_img" v-for="(people, index) in peoples" @click="showPic(index)" :id="picID(index)" src="../asset/img/mapPoint/unClick_point.png"/></div>
+      <div class="mapInfo"><img id="map_img" src="../asset/img/地圖底圖.png"/>
+        <div id="point_img"><img class="point_img" v-for="(people, index) in peoples" @click="showPic(index)" :id="picID(index)" src="../asset/img/mapPoint/unClick_point.png"/></div>
+      </div>
       <div class="info" v-for="(people, index) in peoples">
         <div class="infoText" v-if="people.isShow"><img id="card_img" :src="people.img"/>
           <div id="card_text">

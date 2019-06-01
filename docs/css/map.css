@@ -5,12 +5,14 @@
   box-sizing: border-box;
   position: relative;
   font-weight: 500;
-  font-family: Noto Sans TC; }
+  font-family: Noto Sans TC;
+  color: #3f3f38; }
 
 body, html {
   margin: 0;
-  width: 100%;
-  height: 100%; }
+  width: 1920px;
+  height: 1009px;
+  background-color: #f8f8f8; }
 
 .header {
   display: -webkit-box;
@@ -20,7 +22,8 @@ body, html {
   -ms-flex-pack: end;
   justify-content: flex-end;
   position: relative;
-  height: 13%; }
+  height: 13%;
+  z-index: 100; }
   .header .title {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -31,7 +34,6 @@ body, html {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    color: black;
     width: 12%;
     height: 100%;
     margin-right: 3.5%;
@@ -48,11 +50,10 @@ body, html {
   border-bottom-right-radius: 40px;
   -webkit-box-shadow: 0px 5px 5px #cccccc;
   box-shadow: 0px 5px 5px #cccccc;
-  background-color: #fff; }
+  background-color: #e3e4e7; }
 
 .footer {
-  background-color: #f2f2f2;
-  color: #736357;
+  background-color: #d1cec6;
   width: 100%;
   height: 5.5%;
   display: -webkit-box;
@@ -69,12 +70,13 @@ body, html {
   justify-content: flex-start; }
   .footer .footerObj {
     font-size: 18px;
-    margin-left: 2%; }
+    margin-left: 2%;
+    background-color: transparent; }
 
 .js-btn {
   width: 50px;
   height: 50px;
-  background: #636363;
+  background: #494c49;
   position: fixed;
   bottom: 10%;
   left: 4%;
@@ -100,7 +102,8 @@ body, html {
     font-size: 19px;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
+    transition: all 0.3s ease;
+    background-color: transparent; }
   .js-btn:hover {
     background: rgba(0, 0, 0, 0.9); }
     .js-btn:hover i {
@@ -123,7 +126,8 @@ body, html {
 
 html, body {
   width: 100vw;
-  height: 100vh; }
+  height: 100vh;
+  overflow-x: hidden; }
 
 .footer {
   position: absolute;
@@ -142,7 +146,7 @@ html, body {
   left: 15%;
   width: 15%;
   height: 5%;
-  z-index: 50; }
+  z-index: 100; }
   .checkbtn .btn {
     text-align: center;
     font-size: 20px;
@@ -150,17 +154,22 @@ html, body {
     border-radius: 20px;
     letter-spacing: 2px;
     margin-top: 2%;
-    color: #494949;
     text-decoration: none; }
     .checkbtn .btn:hover {
-      background-color: #fefbd2;
-      color: #231815;
+      background-color: #dddbd1;
+      color: #494c49;
       -webkit-box-shadow: 1px 2px 0 0 rgba(198, 198, 186, 0.75);
       box-shadow: 1px 2px 0 0 rgba(198, 198, 186, 0.75); }
 
+.onOption {
+  background-color: #494c49;
+  color: #ffffff;
+  -webkit-box-shadow: 1px 2px 0 0 rgba(198, 198, 186, 0.75);
+  box-shadow: 1px 2px 0 0 rgba(198, 198, 186, 0.75); }
+
 #map {
   position: relative;
-  top: 10%;
+  top: 15%;
   width: 70%;
   margin: 0 auto; }
 
@@ -168,18 +177,13 @@ html, body {
   width: 100%;
   height: auto; }
 
-.onOption {
-  background-color: #fefbd2;
-  color: #231815;
-  -webkit-box-shadow: 1px 2px 0 0 rgba(198, 198, 186, 0.75);
-  box-shadow: 1px 2px 0 0 rgba(198, 198, 186, 0.75); }
-
 .info {
   width: 70%;
   height: 15%;
   position: absolute;
-  top: -50px;
-  left: 350px; }
+  top: -80px;
+  left: 350px;
+  background-color: transparent; }
 
 .infoText {
   width: 100%;
@@ -206,76 +210,143 @@ html, body {
   #card_text .name, #card_text .year {
     margin-left: 2%; }
 
-.mapInfo {
-  position: relative; }
+#point_img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: transparent;
+  left: 0;
+  top: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[360];
+  grid-template-columns: repeat(360, 1fr);
+  -ms-grid-rows: (1fr)[150];
+  grid-template-rows: repeat(150, 1fr); }
 
 .point_img {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
   position: absolute;
-  display: inline-block;
-  padding: 10px;
+  padding: 3px;
+  background-color: transparent;
   width: 10px;
   height: 10px; }
 
 #point0 {
-  top: 31.6%;
-  left: 10.9%; }
+  -ms-grid-column: 33;
+  -ms-grid-column-span: 1;
+  grid-column: 33 / span 1;
+  -ms-grid-row: 48;
+  -ms-grid-row-span: 1;
+  grid-row: 48 / span 1; }
 
 #point1 {
-  top: 37.6%;
-  left: 73.9%; }
+  -ms-grid-column: 246;
+  -ms-grid-column-span: 1;
+  grid-column: 246 / span 1;
+  -ms-grid-row: 64;
+  -ms-grid-row-span: 1;
+  grid-row: 64 / span 1; }
 
 #point2 {
-  top: 37.8%;
-  left: 44.3%; }
+  -ms-grid-column: 160;
+  -ms-grid-column-span: 1;
+  grid-column: 160 / span 1;
+  -ms-grid-row: 68;
+  -ms-grid-row-span: 1;
+  grid-row: 68 / span 1; }
 
 #point3 {
-  top: 21.3%;
-  left: 13.3%; }
+  -ms-grid-column: 44;
+  -ms-grid-column-span: 1;
+  grid-column: 44 / span 1;
+  -ms-grid-row: 47;
+  -ms-grid-row-span: 1;
+  grid-row: 47 / span 1; }
 
 #point4 {
-  top: 40.9%;
-  left: 70.7%; }
+  -ms-grid-column: 288;
+  -ms-grid-column-span: 1;
+  grid-column: 288 / span 1;
+  -ms-grid-row: 62;
+  -ms-grid-row-span: 1;
+  grid-row: 62 / span 1; }
 
 #point5 {
-  top: 48%;
-  left: 20.5%; }
+  -ms-grid-column: 56;
+  -ms-grid-column-span: 1;
+  grid-column: 56 / span 1;
+  -ms-grid-row: 60;
+  -ms-grid-row-span: 1;
+  grid-row: 60 / span 1; }
 
 #point6 {
-  top: 56.3%;
-  left: 28.6%; }
+  -ms-grid-column: 96;
+  -ms-grid-column-span: 1;
+  grid-column: 96 / span 1;
+  -ms-grid-row: 80;
+  -ms-grid-row-span: 1;
+  grid-row: 80 / span 1; }
 
 #point7 {
-  top: 38.5%;
-  left: 68.3%; }
+  -ms-grid-column: 247;
+  -ms-grid-column-span: 1;
+  grid-column: 247 / span 1;
+  -ms-grid-row: 60;
+  -ms-grid-row-span: 1;
+  grid-row: 60 / span 1; }
 
 /*法蘭辛 */
 #point8 {
-  top: 38.8%;
-  left: 42.3%; }
+  -ms-grid-column: 164;
+  -ms-grid-column-span: 1;
+  grid-column: 164 / span 1;
+  -ms-grid-row: 68;
+  -ms-grid-row-span: 1;
+  grid-row: 68 / span 1; }
 
 /*沼畑 */
 #point9 {
-  top: 42%;
-  left: 68.2%; }
+  -ms-grid-column: 246;
+  -ms-grid-column-span: 1;
+  grid-column: 246 / span 1;
+  -ms-grid-row: 57;
+  -ms-grid-row-span: 1;
+  grid-row: 57 / span 1; }
 
 /*雷蒙德卡佛 */
 #point10 {
-  top: 47%;
-  left: 70.5%; }
+  -ms-grid-column: 273;
+  -ms-grid-column-span: 1;
+  grid-column: 273 / span 1;
+  -ms-grid-row: 66;
+  -ms-grid-row-span: 1;
+  grid-row: 66 / span 1; }
 
 /*柯林萊特 */
 #point11 {
-  top: 42.7%;
-  left: 73.6%; }
+  -ms-grid-column: 270;
+  -ms-grid-column-span: 1;
+  grid-column: 270 / span 1;
+  -ms-grid-row: 57;
+  -ms-grid-row-span: 1;
+  grid-row: 57 / span 1; }
 
 /*喬舒亞·貝克爾 */
 #point12 {
-  top: 49%;
-  left: 36.5%; }
+  -ms-grid-column: 135;
+  -ms-grid-column-span: 1;
+  grid-column: 135 / span 1;
+  -ms-grid-row: 62;
+  -ms-grid-row-span: 1;
+  grid-row: 62 / span 1; }
 
 /*雍正 */
 #point13 {
-  top: 47.1%;
-  left: 69.3%; }
+  -ms-grid-column: 280;
+  -ms-grid-column-span: 1;
+  grid-column: 280 / span 1;
+  -ms-grid-row: 59;
+  -ms-grid-row-span: 1;
+  grid-row: 59 / span 1; }
