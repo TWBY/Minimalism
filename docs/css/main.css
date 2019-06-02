@@ -21,7 +21,6 @@ body, html {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  position: relative;
   height: 13%;
   z-index: 100; }
   .header .title {
@@ -34,16 +33,37 @@ body, html {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 12%;
+    width: 11%;
     height: 100%;
-    margin-right: 3.5%;
+    margin-right: 3.0%;
     font-size: 32px;
     letter-spacing: 2.6px;
     text-decoration: none;
     font-family: Harmattan;
     padding: 0 20px; }
-    .header .title .home {
-      margin-right: 4%; }
+
+.changeLanguage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  height: 80%;
+  margin-right: 20px; }
+
+.LanguageBtn {
+  width: 40px;
+  height: 40px; }
 
 .onPage {
   border-bottom-left-radius: 40px;
