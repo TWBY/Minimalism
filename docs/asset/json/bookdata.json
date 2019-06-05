@@ -1,4 +1,5 @@
-[{
+[
+    {
         "name": "怦然心動的<br>人生整理魔法",
         "subtitle": "這是副標這是",
         "author": "近藤麻理惠",
@@ -22,7 +23,7 @@
         "name": "我決定簡單的生活",
         "subtitle": "這是副標這是",
         "author": "佐佐木典士",
-        "img": "../asset/img/books/無印極簡.png",
+        "img": "../asset/img/books/決定.png",
         "booklink": "https://www.books.com.tw/products/0010702227",
         "intro": "作者從垃圾屋，<br>到極簡生活的全記錄，<br>Espresso的精粹哲學。",
         "isactive": false,
@@ -42,7 +43,7 @@
         "name": "無印良品<br>極簡生活提案",
         "subtitle": "這是副標這是",
         "author": "蜜雪兒",
-        "img": "../asset/img/books/決定.png",
+        "img": "../asset/img/books/無印極簡.png",
         "booklink": "https://www.books.com.tw/products/0010747387",
         "intro": "找到「輕鬆極簡模式」！<br>家庭極簡生活的範本，<br>細節裡的日常品味。",
         "isactive": false,

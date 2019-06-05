@@ -14,6 +14,9 @@ body, html {
   height: 1009px;
   background-color: #f8f8f8; }
 
+html, body {
+  overflow-x: hidden; }
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -33,7 +36,7 @@ body, html {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 11%;
+    width: 12%;
     height: 100%;
     margin-right: 3.0%;
     font-size: 32px;
@@ -52,14 +55,7 @@ body, html {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  height: 80%;
-  margin-right: 20px; }
+  padding-right: 20px; }
 
 .LanguageBtn {
   width: 40px;
@@ -136,23 +132,6 @@ body, html {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
-@media screen and (max-width: 1366px) {
-  .header .title {
-    margin-right: 4%;
-    font-size: 28px; } }
-
-* {
-  position: static; }
-
-html, body {
-  width: 100vw;
-  height: 100vh;
-  overflow-x: hidden; }
-
-.footer {
-  position: absolute;
-  bottom: 0px; }
-
 .checkbtn {
   position: absolute;
   display: -webkit-box;
@@ -162,9 +141,9 @@ html, body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  top: 20%;
-  left: 15%;
-  width: 15%;
+  top: 200px;
+  left: 200px;
+  width: 300px;
   height: 5%;
   z-index: 100; }
   .checkbtn .btn {
@@ -180,6 +159,18 @@ html, body {
       color: #494c49;
       -webkit-box-shadow: 1px 2px 0 0 rgba(198, 198, 186, 0.75);
       box-shadow: 1px 2px 0 0 rgba(198, 198, 186, 0.75); }
+
+@media screen and (max-width: 1366px) {
+  .header .title {
+    margin-right: 4%;
+    font-size: 28px; } }
+
+* {
+  position: static; }
+
+.footer {
+  position: absolute;
+  bottom: 0px; }
 
 .onOption {
   background-color: #494c49;
@@ -215,8 +206,8 @@ html, body {
 #card_img {
   width: 100px;
   height: 100px;
-  -ms-flex-item-align: end;
-  align-self: flex-end; }
+  -ms-flex-item-align: flex-first;
+  align-self: flex-first; }
 
 #logo_img {
   width: 20px;

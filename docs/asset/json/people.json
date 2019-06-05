@@ -1,6 +1,4 @@
-[
-
-    {
+[{
         "name": "約翰.波森 &nbsp; John Pawson",
         "year": "(1949~)",
         "location": "&nbsp;&nbsp;英國 哈利法克斯",
@@ -34,7 +32,7 @@
         "history": "&nbsp;&nbsp;後現代主義的開創建築師",
         "isShow": false,
         "saying": "&nbsp;&nbsp;「只有內心豐富的人，才能畫出簡潔的線條，設計出光潔的產品外觀」",
-        "img": "../asset/img/mapPeople/Jacob.jpg"
+        "img": "../asset/img/mapPeople/Jacob.png"
     },
     {
         "name": "馬克.祖克柏 &nbsp; Mark Zuckerberg",
@@ -70,7 +68,7 @@
         "history": "&nbsp;&nbsp;極簡設計師",
         "isShow": false,
         "saying": "&nbsp;&nbsp;「Your home is living space, not storage space.」",
-        "img": "../asset/img/mapPeople/Francine.jpg"
+        "img": "../asset/img/mapPeople/Francine.png"
     },
     {
         "name": "沼畑直樹 &nbsp; Naoki Numahata",
@@ -97,7 +95,7 @@
         "history": "&nbsp;&nbsp;TED講者，知名講者",
         "isShow": false,
         "saying": "&nbsp;&nbsp;「Most of us spend so much time on the former, that we can neglect the latter in the trade-off」",
-        "img": "../asset/img/mapPeople/Colin.jpg"
+        "img": "../asset/img/mapPeople/Colin.png"
     },
     {
         "name": "喬舒亞.貝克爾 &nbsp; Joshua Becker",
@@ -125,6 +123,6 @@
         "history": "&nbsp;&nbsp;電影監製，作家",
         "isShow": false,
         "saying": "&nbsp;&nbsp;「Minimalism does not mean that you have nothing, but that you want to cross the ocean of matter and find something truly important.」",
-        "img": "../asset/img/mapPeople/Joshua_f.png"
+        "img": "../asset/img/mapPeople/Joshua_b.png"
     }
 ]

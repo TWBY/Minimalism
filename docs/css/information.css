@@ -14,6 +14,9 @@ body, html {
   height: 1009px;
   background-color: #f8f8f8; }
 
+html, body {
+  overflow-x: hidden; }
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -33,7 +36,7 @@ body, html {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 11%;
+    width: 12%;
     height: 100%;
     margin-right: 3.0%;
     font-size: 32px;
@@ -52,14 +55,7 @@ body, html {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  height: 80%;
-  margin-right: 20px; }
+  padding-right: 20px; }
 
 .LanguageBtn {
   width: 40px;
@@ -136,11 +132,6 @@ body, html {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
-@media screen and (max-width: 1366px) {
-  .header .title {
-    margin-right: 4%;
-    font-size: 28px; } }
-
 .checkbtn {
   position: absolute;
   display: -webkit-box;
@@ -150,25 +141,29 @@ body, html {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  top: 20%;
-  left: 15%;
-  width: 15%;
-  height: auto;
-  z-index: 20; }
+  top: 200px;
+  left: 200px;
+  width: 300px;
+  height: 5%;
+  z-index: 100; }
+  .checkbtn .btn {
+    text-align: center;
+    font-size: 20px;
+    padding: 3px 5px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    margin-top: 2%;
+    text-decoration: none; }
+    .checkbtn .btn:hover {
+      background-color: #dddbd1;
+      color: #494c49;
+      -webkit-box-shadow: 1px 2px 0 0 rgba(198, 198, 186, 0.75);
+      box-shadow: 1px 2px 0 0 rgba(198, 198, 186, 0.75); }
 
-.btn {
-  text-align: center;
-  font-size: 20px;
-  padding: 3px 5px;
-  border-radius: 20px;
-  letter-spacing: 2px;
-  margin-top: 2%;
-  text-decoration: none; }
-  .btn:hover {
-    background-color: #dddbd1;
-    color: #494c49;
-    -webkit-box-shadow: 1px 2px 0 0 rgba(198, 198, 186, 0.75);
-    box-shadow: 1px 2px 0 0 rgba(198, 198, 186, 0.75); }
+@media screen and (max-width: 1366px) {
+  .header .title {
+    margin-right: 4%;
+    font-size: 28px; } }
 
 .onOption {
   background-color: #494c49;
@@ -429,4 +424,4 @@ img {
   transform: scale(0.8); }
 
 html, body {
-  overflow-x: hidden; }
+  overflow-x: hiddens; }
