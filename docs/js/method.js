@@ -198,6 +198,7 @@ var vm = new Vue({
             // let transRange = (BarHeight - (this.number + 1) * innerHeight) + 'px';
             let transRange = BarHeight - (BarHeight / this.questions.length) * this.number + 'px';
             let transHeight = (BarHeight / this.questions.length) * this.number + 'px';
+            inner.style.opacity = "1";
             inner.style.transform = 'translateY(' + transRange + ')';
             inner.style.height = transHeight;
         },

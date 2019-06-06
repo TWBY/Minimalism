@@ -11,7 +11,7 @@
 body, html {
   margin: 0;
   width: 1920px;
-  height: 1009px;
+  height: auto;
   background-color: #f8f8f8; }
 
 html, body {
@@ -38,12 +38,14 @@ html, body {
     align-items: center;
     width: 12%;
     height: 100%;
-    margin-right: 3.0%;
+    margin-right: 3%;
     font-size: 32px;
     letter-spacing: 2.6px;
     text-decoration: none;
     font-family: Harmattan;
     padding: 0 20px; }
+    .header .title .home {
+      margin-right: 2%; }
 
 .changeLanguage {
   display: -webkit-box;
@@ -55,7 +57,7 @@ html, body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-right: 20px; }
+  margin-right: 3.0%; }
 
 .LanguageBtn {
   width: 40px;
@@ -290,6 +292,7 @@ body {
 .inner {
   width: 29.6px;
   height: 37px;
+  opacity: 0;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
   -webkit-transform: translateY(555px);

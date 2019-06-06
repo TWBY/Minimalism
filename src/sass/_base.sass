@@ -13,12 +13,16 @@
 body, html
     margin: 0
     // +size(100%,100%)
-    +size(1920px,1009px)
+    +size(1920px,auto)
+    // width: 1920px
     background-color: $dw
+
 // body::-webkit-scrollbar 
 //     z-index: 100
 html, body
     overflow-x: hidden
+
+
 
 
 // HEADER
@@ -31,18 +35,18 @@ html, body
         +flexdisplay()
         // border: dotted 1px #f24
         +size(12%, 100%)
-        margin-right: 3.0%
+        margin-right: 3%
         font-size: 32px
         letter-spacing: 2.6px
         text-decoration: none
         font-family: $EN_language
         padding: 0 20px
-        // & .home
-        //     margin-right: 4%
+        & .home
+            margin-right: 2%
 .changeLanguage
     // +border(dotted, 0.2px, #f24)
     +flexdisplay()
-    padding-right: 20px
+    margin-right: 3.0%
 .LanguageBtn
     +size(40px, 40px) 
 .onPage
